@@ -2612,7 +2612,6 @@ i {
 
 	header p {
 		position: relative;
-		font-size: 1.25em;
 		margin: 0 0 1.5em 1.5em;
 	}
 
@@ -3762,7 +3761,7 @@ i {
 		}
 
 		#header p {
-			font-size: 1.5em;
+			font-size: 1..25em;
 			line-height: 1.35em;
 		}
 
