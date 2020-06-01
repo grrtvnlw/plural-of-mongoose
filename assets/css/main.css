@@ -2612,7 +2612,7 @@ i {
 
 	header p {
 		position: relative;
-		margin: 0 0 1.5em 1.5em;
+		margin: 0 0 1.5em 0;
 	}
 
 		@media screen and (max-width: 736px) {
