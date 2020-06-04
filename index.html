@@ -102,20 +102,19 @@
 				<header class="major">
 					<h2>Contact</h2>
 				</header>
-				<form name="contact" method="POST" data-netlify="true" class="contact-field">
-					<p class="contact-inner">
-						<label>Name <input type="text" name="name" /></label>   
-					</p>
-					<p class="contact-inner">
-						<label>Email <input type="email" name="email" /></label>
-					</p>
-					<p class="contact-inner">
-						<label>Message <textarea name="message"></textarea></label>
-					</p>
-					<p>
-						<button type="submit">Send</button>
-					</p>
-				</form>
+				<form name='contact' method='post' action='/index.html' data-netlify='true' class='contact-field'>
+					<div class='row gtr-uniform gtr-50'>
+					<div class='col-6 col-12-xsmall'><input type='text' name='name' id='name'
+									placeholder='Name' /></div>
+					<div class='col-6 col-12-xsmall'><input type='email' name='email' id='email'
+									placeholder='Email' /></div>
+					<div class='col-12'><textarea name='message' id='message' placeholder='Message'
+									rows='4'></textarea></div>
+					</div>
+					<br>
+					<ul class='actions'>
+							<li><input type='submit' value='Send' /></li>
+					</ul>
 			</section>
 
 		<!-- Footer -->
