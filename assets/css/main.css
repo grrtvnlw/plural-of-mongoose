@@ -87,10 +87,6 @@ i {
 	width: 70%;
 }
 
-.hidden {
-	display: none;
-}
-
 /* Basic */
 
 	@-ms-viewport {
