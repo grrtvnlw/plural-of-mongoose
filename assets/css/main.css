@@ -83,7 +83,7 @@ i {
 	align-items: center;
 }
 
-.contact-field p {
+.contact-inner {
 	width: 70%;
 }
 
@@ -3687,6 +3687,11 @@ i {
 			color: #b5d5f5;
 		}
 
+		#header .icons {
+			padding-top: 10px;
+			text-align: center;
+		}
+
 		#header .image {
 			box-shadow: 0 0 0 4px #4696e5, 0 0 0 5px rgba(255, 255, 255, 0.25);
 		}
@@ -3773,7 +3778,7 @@ i {
 		}
 
 		#header p {
-			font-size: 1.35em;
+			font-size: 1.25em;
 			line-height: 1.35em;
 		}
 
