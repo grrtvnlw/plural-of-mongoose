@@ -3702,6 +3702,10 @@ i {
 			color: #b5d5f5;
 		}
 
+		#header .icon:hover {
+			color: #ffffff;
+		}
+
 		#header .icons {
 			padding-top: 10px;
 			text-align: center;
