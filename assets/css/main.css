@@ -77,7 +77,7 @@ i {
 
 .contact-field {
 	margin: 0 auto;
-	width: 70%;
+	width: 50%;
 }
 
 .center {
@@ -143,6 +143,11 @@ i {
 				font-size: 13pt;
 			}
 
+			.contact-field {
+				margin: 0 auto;
+				width: 60%;
+			}
+
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -151,12 +156,22 @@ i {
 				font-size: 12pt;
 			}
 
+			.contact-field {
+				margin: 0 auto;
+				width: 80%;
+			}
+
 		}
 
 		@media screen and (max-width: 360px) {
 
 			html, input, select, textarea {
 				font-size: 11pt;
+			}
+
+			.contact-field {
+				margin: 0 auto;
+				width: 90%;
 			}
 
 		}
