@@ -93,6 +93,10 @@ i {
 	line-height: 2;
 }
 
+.size {
+	font-size: 1.5em;
+}
+
 /* Basic */
 
 	@-ms-viewport {
